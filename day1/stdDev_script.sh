@@ -1,4 +1,5 @@
 #!/usr/bin/Rscript
+#descriptive comment
 
 input <- file('stdin', 'r')
 row1 <- readLines(input, n=1)

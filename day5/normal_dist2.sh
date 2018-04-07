@@ -19,8 +19,8 @@ a1 <- pnorm(value1, mean = mu, sd = sigma, lower.tail = F) * 100
 a3 <- pnorm(value2, mean = mu, sd = sigma, lower.tail = T) * 100
 a2 <- 100-a3
 
-write(sprintf("%.3f", a1), "")
+write(sprintf("%.2f", a1), "")
               
-write(sprintf("%.3f", a2), "")
+write(sprintf("%.2f", a2), "")
 
-write(sprintf("%.3f", a3), "")
+write(sprintf("%.2f", a3), "")
